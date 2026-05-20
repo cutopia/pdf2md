@@ -1,0 +1,7 @@
+pdfplumber>=0.10.0
+PyPDF2>=3.0.0
+python-dateutil>=2.8.2
+
+# Optional: for OCR support on image-based PDFs
+pytesseract>=0.3.10
+Pillow>=10.0.0
