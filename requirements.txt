@@ -11,3 +11,5 @@ pypdfium2==5.8.0
 pytesseract==0.3.13
 python-dateutil==2.9.0.post0
 six==1.17.0
+torch>=2.0.0
+transformers>=5.0.0
