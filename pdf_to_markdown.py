@@ -448,10 +448,6 @@ class PDFToMarkdownConverter:
         consecutive_headings = 0
         
         for page in pages_content:
-            # Add page separator (only between pages, not at the beginning)
-            if self.stats["pages_processed"] > 1 and len(markdown_lines) > 5:
-                markdown_lines.append(f"---\n*Page {page['page_number']}*\n---")
-            
             content = page.get("content", [])
             
             for element in content:
